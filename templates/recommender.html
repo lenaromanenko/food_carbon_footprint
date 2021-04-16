@@ -1,0 +1,64 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css">  
+  </head>
+  
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">🥬</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Foodly</a>
+            </li>
+          </ul>
+          <form class="d-flex" action="/product">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" input id="i1" list="countries" name="product1">
+            <button class="btn btn-outline-success" type="submit" value="Get a recommendetion">Submit</button>
+          </form>
+          <datalist id="countries" class="list"></datalist>
+          <script src="/static/main.js"></script>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <br>
+  <br>
+  
+<body style = "background-color: linen">
+
+<center>  
+
+  <div class="card" style="width: 40rem;">
+    <br>
+    <div class = "circular--landscape">
+      <img class="rounded mx-auto d-block" src="{{ u1 }}" class="card-img-top" alt="...">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{ p1 }}</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><br>Foodly recommends you {{ p1 }}. This product belongs to category {{ cat1 }} as well. {{ d1 }}<br><br></li>
+          <li class="list-group-item" style="text-align: left;"> <img src="https://www.futureatelier.com/wp-content/uploads/2021/04/water-2.png" style="width:26px; height:26px"> Freshwater withdrawals <b>{{ w1 }} l </b> per kg</li>
+          <li class="list-group-item" style="text-align: left;"> <img src="https://www.futureatelier.com/wp-content/uploads/2021/04/smart-farm.png" style="width:26px; height:26px"> Land use <b>{{ l1 }} m2 </b>per kg</li>
+          <li class="list-group-item" style="text-align: left;"> <img src="https://www.futureatelier.com/wp-content/uploads/2021/04/co2.png" style="width:26px; height:26px"> Total footprint of <b>{{ e1 }} kg of CO2</b> per kg of {{ p1 }} {{ c1 }} </li>
+          <li class="list-group-item" style="text-align: left;"> <img src="https://www.futureatelier.com/wp-content/uploads/2021/04/runway-1.png" style="width:26px; height:26px"> This CO2 equals to <b>{{ km1 }} km</b> of a car ride or <b>{{ plane1 }} min</b> of a commercial flight</li>  
+    </ul>
+    </div>
+</div>
+
+<br>
+<a href="/" class="btn btn-outline-success">Go to the main page</a>
+
+
+<center>  
+
+</body>
+<br>

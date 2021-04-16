@@ -1,0 +1,65 @@
+body {
+  background-color: linen;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  .container {
+    position: relative;
+    padding: 30px;
+  }
+  
+  .group {
+    position: relative;
+    top: -200px;
+    text-align: center;
+  }
+  
+  .text {
+    font-size: 100px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  .circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .circular--landscape img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+  }
+  
+  input {
+    width: 25%;
+    height: 12;
+    padding: 10px;
+    font-size: 15px;
+    position: relative;
+    border-radius: 8px;
+    border: 2px solid rgb(252, 167, 55);
+    outline: none;
+  }
+
+  
+  
