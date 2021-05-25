@@ -35,7 +35,7 @@ The project is available via www.foodly.cc Please note: The website is not optim
 <kbd><img src="https://github.com/lenaromanenko/food_carbon_footprint/blob/main/readme_images/Tech%20Stack%20Foodly.png" width="1000"></kbd>
 </p>
 
-This project has been created during the final week of the boot camp at [SPICED Academy](https://www.spiced-academy.com/de/?gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hMmcIQjTdphHzDxQTmnqK5hOF_SyvKfxtLCWJCT485yk5wrQXlz2zQaAjYyEALw_wcB).
+This project has been created as a final project during the last week of the Data Science Boot Camp at [SPICED Academy](https://www.spiced-academy.com/de/?gclid=Cj0KCQjwpdqDBhCSARIsAEUJ0hMmcIQjTdphHzDxQTmnqK5hOF_SyvKfxtLCWJCT485yk5wrQXlz2zQaAjYyEALw_wcB).
 
 ### To Do:
 - Fix bugs 🐞 Sometimes, Foodly shows the wrong results with a higher score bc there are no products with the same or lower score in this food category
