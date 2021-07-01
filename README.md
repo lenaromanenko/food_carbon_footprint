@@ -5,7 +5,7 @@ According to research by [Our World in Data](https://ourworldindata.org/), food 
 <kbd><img src="https://github.com/lenaromanenko/food_carbon_footprint/blob/main/readme_images/GitHub%20Share%20Foodly.png" width="1000"></kbd>
 </p>
       
-The project is available via www.foodly.cc Please note: The website is not optimized for mobile screens, and it may take ca. 20 seconds to load the page when you try to access it for the first time during your session. This is due to using a free tier Heroku server that goes to sleep when the website was not visited recently.
+foodly.cc is currently unavailable! ⏳ (The project is available via www.foodly.cc Please note: The website is not optimized for mobile screens, and it may take ca. 20 seconds to load the page when you try to access it for the first time during your session. This is due to using a free tier Heroku server that goes to sleep when the website was not visited recently.)
 
 <p align="center">
 <kbd><img src="https://github.com/lenaromanenko/food_carbon_footprint/blob/main/readme_images/Foodly_HD_readme.gif" width="900"></kbd>
